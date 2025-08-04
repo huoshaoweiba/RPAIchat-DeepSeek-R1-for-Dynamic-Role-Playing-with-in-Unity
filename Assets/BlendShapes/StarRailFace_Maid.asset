@@ -1,0 +1,5969 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba238c43fef31dc43af06075a9b0aae3, type: 3}
+  m_Name: StarRailFace_Maid
+  m_EditorClassIdentifier: 
+  BlendShapes:
+  - Name: browInnerUp
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Inn_L
+      Translation: {x: 0, y: 0.007030493, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Inn_R
+      Translation: {x: 0, y: 0.007030493, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: browDownLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Inn_L
+      Translation: {x: 0, y: -0.0069695134, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Mid_L
+      Translation: {x: 0, y: -0.0069695134, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Out_L
+      Translation: {x: 0, y: -0.0069695134, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: browDownRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Inn_R
+      Translation: {x: -0, y: -0.0069695134, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Mid_R
+      Translation: {x: -0, y: -0.0069695134, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Out_R
+      Translation: {x: -0, y: -0.0069695134, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: browOuterUpLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Out_L
+      Translation: {x: 0, y: 0.012340027, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Mid_L
+      Translation: {x: 0, y: 0.012340027, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: browOuterUpRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Out_R
+      Translation: {x: 0, y: 0.012340027, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Mid_R
+      Translation: {x: 0, y: 0.012340027, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeLookUpLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eye_L
+      Translation: {x: 0, y: 0, z: 0}
+      Rotation: {x: 346.51645, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeLookUpRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eye_R
+      Translation: {x: 0, y: 0, z: 0}
+      Rotation: {x: -346.5164, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeLookDownLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eye_L
+      Translation: {x: 0, y: 0, z: 0}
+      Rotation: {x: -346.5164, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeLookDownRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eye_R
+      Translation: {x: 0, y: 0, z: 0}
+      Rotation: {x: 346.5164, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeLookInLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eye_L
+      Translation: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0.00001289549, y: -345.3454, z: -0.000006823017}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeLookInRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eye_R
+      Translation: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0.00001289549, y: 345.3454, z: -0.000006823017}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeLookOutLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eye_L
+      Translation: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0.000012895493, y: 345.34537, z: -0.000006823017}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeLookOutRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eye_R
+      Translation: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0.00001289549, y: -345.3454, z: -0.000006823017}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeBlinkLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyeup_inn_L
+      Translation: {x: 0, y: -0.014850993, z: 0.0000023220975}
+      Rotation: {x: 20, y: 0, z: -2.4848086e-15}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyeup_M_L
+      Translation: {x: 0, y: -0.015396196, z: 0.000010184944}
+      Rotation: {x: 40, y: 1.0379796e-15, z: 6.6720044e-16}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyeup_out_L
+      Translation: {x: 0, y: -0.00660395, z: -0.000017584613}
+      Rotation: {x: 40, y: -1.2455757e-14, z: -9.596682e-15}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyeconner_out_L
+      Translation: {x: 0, y: 0.003962033, z: -0.0000062535205}
+      Rotation: {x: 40, y: -1.6607673e-14, z: -1.0675207e-14}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyeconner_inn_L
+      Translation: {x: 0, y: 0.0023572163, z: 0.000026524067}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyedn_M_L
+      Translation: {x: 0, y: 0.011862043, z: 0.0062385746}
+      Rotation: {x: 320, y: 2.0759596e-15, z: -1.1356162e-15}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyedn_inn_L
+      Translation: {x: 0, y: 0.010006583, z: 0.0014508913}
+      Rotation: {x: 320, y: 8.303837e-15, z: -5.3376035e-15}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyedn_out_L
+      Translation: {x: 0, y: 0.0072612017, z: 0.008476286}
+      Rotation: {x: 320, y: 4.1519183e-15, z: -2.6688018e-15}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeBlinkRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyeup_inn_R
+      Translation: {x: -0.0000000011010092, y: -0.014850993, z: -0.0000023220975}
+      Rotation: {x: 340.00003, y: 0.0000013676805, z: 0.00000073810287}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyeup_M_R
+      Translation: {x: -0.0000000011418059, y: -0.015396196, z: -0.000010184944}
+      Rotation: {x: 320, y: 0.0000027158462, z: 0.0000010328848}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyeup_out_R
+      Translation: {x: -4.8869525e-10, y: -0.00660395, z: 0.000017584613}
+      Rotation: {x: 320, y: 0.0000027158462, z: 0.0000010328848}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyeconner_out_R
+      Translation: {x: 2.9400657e-10, y: 0.003962033, z: 0.0000062535205}
+      Rotation: {x: 320, y: 0.0000027158462, z: 0.0000010328848}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyeconner_inn_R
+      Translation: {x: 1.7345375e-10, y: 0.0023572163, z: -0.000026524067}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyedn_M_R
+      Translation: {x: 5.76975e-10, y: 0.011862043, z: -0.0062385746}
+      Rotation: {x: 39.999985, y: -0.0000044119774, z: -0.0000036271995}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyedn_inn_R
+      Translation: {x: 6.7146555e-10, y: 0.010006583, z: -0.0014508913}
+      Rotation: {x: 39.999985, y: -0.0000044119774, z: -0.0000036271995}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyedn_out_R
+      Translation: {x: 1.274664e-10, y: 0.0072612017, z: -0.008476286}
+      Rotation: {x: 39.999985, y: -0.0000044119774, z: -0.0000036271995}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeSquintLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyedn_M_L
+      Translation: {x: 0, y: 0.010262043, z: 0.00001857554}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyedn_inn_L
+      Translation: {x: 0, y: 0.016006583, z: -0.0000024413068}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyedn_out_L
+      Translation: {x: 0, y: 0.008127868, z: 0.000009619941}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeSquintRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyedn_M_R
+      Translation: {x: 0, y: 0.010262043, z: -0.00001857554}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyedn_inn_R
+      Translation: {x: 0, y: 0.016006583, z: 0.0000024413068}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyedn_out_R
+      Translation: {x: 0, y: 0.008127868, z: -0.000009619941}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeWideLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyeup_inn_L
+      Translation: {x: 0, y: 0.0044821477, z: 0.000002304713}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyeup_M_L
+      Translation: {x: 0, y: 0.0044821105, z: 0.00000222524}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyeup_out_L
+      Translation: {x: 0, y: 0.0044821105, z: 0.00000222524}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyedn_inn_L
+      Translation: {x: 0, y: -0.0013267504, z: -0.0000024413068}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyedn_M_L
+      Translation: {x: 0.000000004967054, y: -0.0013267199, z: -0.0000023841858}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_L/eyedn_out_L
+      Translation: {x: 0.000000004967054, y: -0.0013267199, z: -0.0000023841858}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: eyeWideRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyeup_inn_R
+      Translation: {x: 0, y: 0.0044821477, z: -0.000002304713}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyeup_M_R
+      Translation: {x: 0, y: 0.0044821105, z: -0.00000222524}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyeup_out_R
+      Translation: {x: 0, y: 0.0044821105, z: -0.00000222524}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyedn_inn_R
+      Translation: {x: 0, y: -0.0013267504, z: 0.0000024413068}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyedn_M_R
+      Translation: {x: 0.000000004967054, y: -0.0013267199, z: 0.0000023841858}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eye_All_R/eyedn_out_R
+      Translation: {x: 0.000000004967054, y: -0.0013267199, z: 0.0000023841858}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: cheekPuff
+    Description: 
+    BoneModifications: []
+    Editor_DescriptionFoldout: 0
+  - Name: cheekSquintLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_L
+      Translation: {x: 0, y: 0.0056043915, z: -0.000012755394}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: cheekSquintRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_R
+      Translation: {x: 0, y: 0.0056043915, z: -0.000012755394}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: noseSneerLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Inn_L
+      Translation: {x: 0, y: -0.007836178, z: -0.000018591682}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Mid_L
+      Translation: {x: 0, y: -0.0041065416, z: -0.000027765831}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Out_L
+      Translation: {x: 0, y: 0.0024066966, z: -0.000022679567}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: noseSneerRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Inn_R
+      Translation: {x: -0, y: -0.007836178, z: -0.000018591682}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Mid_R
+      Translation: {x: -0, y: -0.0041065416, z: -0.000027765831}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/eyebrow_Out_R
+      Translation: {x: 0, y: 0.0024066966, z: -0.000022679567}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: jawOpen
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/DownTeeth
+      Translation: {x: 0, y: -0.006447146, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipConner_L
+      Translation: {x: 0, y: -0.00086227554, z: -0.000012755394}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipConner_R
+      Translation: {x: 0, y: -0.00086243945, z: -0.000012874603}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_L
+      Translation: {x: 0, y: -0.006447146, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_R
+      Translation: {x: 0, y: -0.006447146, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_L
+      Translation: {x: 0, y: -0.0044090003, z: -0.000024447838}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_R
+      Translation: {x: 0, y: -0.0044088266, z: -0.00002447764}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_M
+      Translation: {x: 0, y: -0.006447146, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_L
+      Translation: {x: 0, y: 0.002401933, z: 0.000008895993}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_R
+      Translation: {x: 0, y: 0.0024019305, z: 0.00000890096}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_L
+      Translation: {x: 0, y: 0.00019572179, z: 0.000010147691}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_R
+      Translation: {x: -0.000000004967054, y: 0.00019561748, z: 0.000010172526}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_M
+      Translation: {x: 0, y: 0.0029948826, z: -0.000012705724}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/tongue_01
+      Translation: {x: 0, y: -0.0048424453, z: -0.000008707245}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/UpTeeth
+      Translation: {x: 0, y: 0.00029612333, z: -0.00002503395}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: jawForward
+    Description: 
+    BoneModifications: []
+    Editor_DescriptionFoldout: 0
+  - Name: jawLeft
+    Description: 
+    BoneModifications: []
+    Editor_DescriptionFoldout: 0
+  - Name: jawRight
+    Description: 
+    BoneModifications: []
+    Editor_DescriptionFoldout: 0
+  - Name: mouthFunnel
+    Description: "\u6485\u8D77\u5634\u5507\u5E76\u7A0D\u5FAE\u5F20\u5F00\uFF0C\u9732\u51FA\u7D27\u95ED\u7684\u7259\u9F7F\u3002\u5634\u5507\u50CF\u6F0F\u6597\u4E00\u6837\u4F38\u51FA\u5E76\u5C55\u5F00\u7684\u5F62\u72B6\u3002\u7259\u9F7F\u5B8C\u5168\u4E0D\u8981\u52A8\u3002\n\n\u2605\u5982\u679C\u4F60\u4E0D\u60F3\u5C3D\u53EF\u80FD\u5730\u9732\u51FA\u7259\u9F7F\u6765\u8868\u8FBE\u4F60\u7684\u6027\u683C\uFF0C\u53EF\u4EE5\u5728\u8FD9\u4E2A\u5F62\u72B6\u952E\u4E2D\u6DFB\u52A0\u4E00\u4E2A\u9690\u85CF\u7259\u9F7F\u7684\u52A8\u4F5C\u3002\n\n\u5C06\u5634\u89D2\u6536\u7A84\uFF0C\u5F62\u6210\u9510\u89D2\uFF0C\u7ED9\u4EBA\u4E00\u79CD\u5634\u91CC\u5145\u6EE1\u529B\u91CF\u7684\u5370\u8C61\u3002\n\n\u62AC\u8D77\u4F60\u7684\u5634\u5507\u5E76\u4F38\u51FA\u6765\n\n\u7A0D\u5FAE\u62AC\u8D77\u820C\u5C16\uFF08\u56E0\u4E3A\u5F53\u4EBA\u4EEC\u505A\u51FA\u8FD9\u4E2A\u5634\u5F62\u65F6\uFF0C\u820C\u5C16\u4F1A\u6536\u7F29\uFF09\n\n\u8C03\u6574\u53E3\u8154\u5185\u7684\u7F51\u5B54\uFF0C\u9632\u6B62\u7259\u9F7F\u62E5\u6324"
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_L
+      Translation: {x: 0.007345717, y: -0.00079561025, z: 0.0012539079}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_L
+      Translation: {x: 0.0035218697, y: -0.00077815104, z: 0.0020847816}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_R
+      Translation: {x: -0.0035999964, y: -0.0007780393, z: 0.002084891}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_L
+      Translation: {x: 0.007345716, y: -0.0013423339, z: 0.004308889}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_R
+      Translation: {x: -0.0071457126, y: -0.001342535, z: 0.0043086954}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_M
+      Translation: {x: 0.000066667795, y: -0.0005804797, z: 0.0020898331}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_L
+      Translation: {x: 0.0030669167, y: 0.0027352672, z: 0.0020755678}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_R
+      Translation: {x: -0.0027002478, y: 0.0025353879, z: 0.0020755082}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_L
+      Translation: {x: 0.007216249, y: 0.000462388, z: 0.004276817}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_R
+      Translation: {x: -0.006962914, y: 0.00046253204, z: 0.0042769113}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_M
+      Translation: {x: 0.000066667795, y: 0.0033282165, z: 0.002053966}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipConner_R
+      Translation: {x: -0.0071457154, y: -0.00079568225, z: 0.0012539228}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthPucker
+    Description: "\u7F29\u5C0F\u5634\u5507\u7684\u5BBD\u5EA6\n\n\u5634\u5507\u8D8A\u7A84\uFF0C\u770B\u8D77\u6765\u5C31\u8D8A\u4E30\u6EE1\u3001\u8D8A\u524D\u503E\u3002\n\n\u4E0E\u5634\u5DF4\u6F0F\u6597\u7ED3\u5408\u5F62\u6210\u63A5\u543B\u5634\n\n\u4E0EjawOpen\u7EC4\u5408\u65F6\uFF0C\u6CE8\u610F\u4E0D\u8981\u4F7F\u7A84\u5634\u7684\u5F62\u72B6\u5728\u5782\u76F4\u65B9\u5411\u4E0A\u8FC7\u4E8E\u62C9\u957F\u3002\n\n\u540C\u65F6\u6536\u7D27\u820C\u5934\u548C\u5634\u5507\uFF08\u4EE5\u9632\u6B62\u6E17\u900F\u5230\u5634\u89D2\uFF09"
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_L
+      Translation: {x: 0.0024123837, y: 0, z: 0.00072057545}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_L
+      Translation: {x: 0.001679053, y: 0, z: 0.00072050095}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_L
+      Translation: {x: 0.001679053, y: 0, z: 0.00072050095}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_L
+      Translation: {x: 0.001679053, y: 0, z: 0.00072050095}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_L
+      Translation: {x: 0.001679053, y: 0, z: 0.00072050095}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipConner_R
+      Translation: {x: -0.0022790495, y: 0, z: 0.00072050095}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_R
+      Translation: {x: -0.0015457174, y: 0, z: 0.00072050095}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_R
+      Translation: {x: -0.0015457174, y: 0, z: 0.00072050095}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_R
+      Translation: {x: -0.0015457174, y: 0, z: 0.00072050095}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_R
+      Translation: {x: -0.0015457174, y: 0, z: 0.00072050095}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_M
+      Translation: {x: 0.000066667795, y: 0, z: 0.00072050095}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_M
+      Translation: {x: 0.000066667795, y: 0, z: 0.00072050095}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_L
+      Translation: {x: -0.0033209499, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipConner_R
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_L
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_R
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_L
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_R
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_M
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_L
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_R
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_L
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_R
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_M
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthLower_M
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthUpper_01_L
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthUpper_01_R
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthUpper_02_L
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthUpper_02_R
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthUpper_03_L
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthUpper_03_R
+      Translation: {x: -0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_R
+      Translation: {x: 0.0033209499, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipConner_L
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_R
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_L
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_R
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_L
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_M
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_R
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_L
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_R
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_L
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_M
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthLower_M
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthUpper_01_R
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthUpper_01_L
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthUpper_02_R
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthUpper_02_L
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthUpper_03_R
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/mouthUpper_03_L
+      Translation: {x: 0.0033209522, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthRollUpper
+    Description: "\u54AC\u4F60\u7684\u4E0A\u5507\r\n\r\n\u5C24\u5176\u662F\u5728\u7C7B\u4F3C\u5361\u901A\u7684\u6A21\u578B\u4E2D\uFF0C\u5F53\u7EB9\u7406\u88AB\u586B\u5145\u65F6\uFF0C\u5634\u5DF4\u672C\u8EAB\u5C31\u6D88\u5931\u4E86\u3002\r\n\r\n\u521B\u5EFA\u4E00\u4E2A\u54AC\u4F4F\u5634\u5507\u7684\u5F62\u72B6\uFF0C\u540C\u65F6\u4FDD\u6301\u4E0A\u5507\u8FB9\u7F18\u53EF\u89C1\u3002\r\n\r\n\u4E0EmouthRollLower
+      \u914D\u5408\u4F7F\u7528\uFF0C\u5728\u5634\u90E8\u5468\u56F4\u521B\u5EFA\u4F4E\u6C89\u7684\u8868\u60C5\u3002\r\n\r\n\u5B9E\u9645\u79FB\u52A8\u65F6\uFF0CjawOpen
+      \u4F1A\u7A0D\u5FAE\u6DF7\u5408\uFF0C\u56E0\u6B64\u79FB\u52A8\u4F1A\u6BD4\u521B\u5EFA\u7684\u5F62\u72B6\u6D45\u3002\r"
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_M
+      Translation: {x: 0, y: -0.0010051181, z: 0.00032062829}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthRollLower
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipLower_M
+      Translation: {x: 0, y: 0.0011461874, z: 0.001156499}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthShrugUpper
+    Description: "\u7D27\u7D27\u5730\u62AC\u8D77\u4E0A\u5507\r\n\r\n\u63D0\u5347\u4E0A\u5507\u7684\u5F62\u72B6\r\n\r\n\u4E0EmouthShrugLower
+      \u914D\u5408\u4F7F\u7528\uFF0C\u521B\u5EFA\u4E00\u4E2A\u7D27\u95ED\u7684\u201Che\u201D\u5F62\u76B1\u7709\u5634\u5DF4\u3002\r\n\r\n\u6B64\u5916\uFF0C\u5982\u679C\u4F60\u5728\u6309\u4E0B\u5634\u7684\u540C\u65F6\u79FB\u52A8\uFF0C\u4F60\u7684\u5634\u5C31\u4F1A\u88AB\u7D27\u7D27\u5730\u675F\u7F1A\u4F4F\u3002\r\n\r\n\u5411\u4E0B\u62C9\u5634\u89D2\u7684\u52A8\u4F5C\u5E94\u8BE5\u9002\u7528\u4E8E\u4E0A\u5507\u6216\u4E0B\u5507\uFF0C\u56E0\u4E3A\u5982\u679C\u5747\u5300\u5730\u5206\u914D\u5728\u4E0A\u5507\u548C\u4E0B\u5507\u4E4B\u95F4\uFF0C\u5634\u89D2\u5C31\u4F1A\u53D8\u5F97\u677E\u5F1B\u3002"
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_M
+      Translation: {x: 0, y: 0.0049948827, z: -0.000012705724}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_L
+      Translation: {x: 0, y: 0.0018623894, z: 0.000010147691}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_R
+      Translation: {x: -0.000000004967054, y: 0.001862367, z: 0.000010172526}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_L
+      Translation: {x: 0, y: 0.0041352683, z: 0.000008895993}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_R
+      Translation: {x: 0, y: 0.004135132, z: 0.00000890096}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthShrugLower
+    Description: "\u7D27\u7D27\u5730\u62AC\u8D77\u4E0B\u5507\r\n\r\n\u63D0\u5347\u4E0B\u5507\u7684\u5F62\u72B6\r\n\r\n\u4E0EmouthShrugUpper
+      \u914D\u5408\u4F7F\u7528\uFF0C\u76B1\u8D77\u5634\u90E8\u5F62\u6210\u201CH\u201D\u5F62\u72B6\u3002"
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipLower_M
+      Translation: {x: 0, y: 0.0014861872, z: 0.000023161372}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_L
+      Translation: {x: 0, y: 0.0015243316, z: -0.000024447838}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_R
+      Translation: {x: 0, y: 0.0015244484, z: -0.00002447764}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_L
+      Translation: {x: 0, y: 0.0012885159, z: 0.000018109879}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_R
+      Translation: {x: 0, y: 0.0012885729, z: 0.000018119812}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthClose
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_L
+      Translation: {x: 0, y: 0.005955182, z: 0.000018109879}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_R
+      Translation: {x: 0, y: 0.005955378, z: 0.000018119812}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_L
+      Translation: {x: 0, y: 0.005955378, z: 0.000018119812}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_R
+      Translation: {x: 0, y: 0.005955378, z: 0.000018119812}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_M
+      Translation: {x: 0, y: 0.005955378, z: 0.000018119812}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthSmileLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_L
+      Translation: {x: 0, y: 0.0021377231, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_L
+      Translation: {x: 0, y: 0.0015909994, z: -0.000024447838}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_L
+      Translation: {x: 0, y: 0.0015910467, z: -0.00002447764}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_L
+      Translation: {x: 0, y: 0.0010885149, z: 0.000018109879}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_L
+      Translation: {x: 0, y: 0.0010886192, z: 0.000018119812}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthSmileRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_R
+      Translation: {x: 0, y: 0.0021377231, z: -1.8266905e-24}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_R
+      Translation: {x: 0, y: 0.0015909994, z: -0.000024447838}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_R
+      Translation: {x: 0, y: 0.0015910467, z: -0.00002447764}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_R
+      Translation: {x: 0, y: 0.0010885149, z: 0.000018109879}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_R
+      Translation: {x: 0, y: 0.0010886192, z: 0.000018119812}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthFrownLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_L
+      Translation: {x: 0, y: -0.004262276, z: -0.000012755394}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_L
+      Translation: {x: -0.000000004967054, y: -0.003271006, z: -0.00005639593}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_L
+      Translation: {x: 0, y: -0.0032709439, z: -0.000056520104}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_L
+      Translation: {x: 0, y: -0.0011313757, z: 0.00000890096}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_L
+      Translation: {x: 0, y: -0.001131398, z: 0.000008895993}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthFrownRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_R
+      Translation: {x: -0, y: -0.004262276, z: -0.000012755394}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_R
+      Translation: {x: 0.000000004967054, y: -0.003271006, z: -0.00005639593}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_R
+      Translation: {x: -0, y: -0.0032709439, z: -0.000056520104}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_R
+      Translation: {x: 0, y: -0.0011313757, z: 0.00000890096}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_R
+      Translation: {x: 0, y: -0.001131398, z: 0.000008895993}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthDimpleLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_L
+      Translation: {x: -0.0035876173, y: 0, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthDimpleRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_R
+      Translation: {x: 0.0035876173, y: 0, z: 0}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthUpperUpLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_L
+      Translation: {x: 0, y: 0.0018623894, z: 0.000010147691}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_L
+      Translation: {x: 0, y: 0.002801935, z: 0.000008895993}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_M
+      Translation: {x: 0, y: 0.0022615492, z: -0.000012705724}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthUpperUpRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_R
+      Translation: {x: 0, y: 0.0018623894, z: 0.000010147691}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_00_R
+      Translation: {x: 0, y: 0.002801935, z: 0.000008895993}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_M
+      Translation: {x: 0, y: 0.0022615492, z: -0.000012705724}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthLowerDownLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipLower_M
+      Translation: {x: 0, y: -0.0012471477, z: 0.000023161372}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_L
+      Translation: {x: 0, y: -0.0016756678, z: -0.000024447838}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_L
+      Translation: {x: 0, y: -0.0022448178, z: 0.000018109879}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthLowerDownRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipLower_M
+      Translation: {x: 0, y: -0.0012471477, z: 0.000023161372}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_R
+      Translation: {x: -0, y: -0.0016756678, z: -0.000024447838}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_00_R
+      Translation: {x: 0, y: -0.0022448178, z: 0.000018109879}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthPressLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_L
+      Translation: {x: 0, y: 0.0022710587, z: -0.000012755394}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthPressRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_R
+      Translation: {x: 0, y: 0.0022710587, z: -0.000012755394}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthStretchLeft
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_L
+      Translation: {x: -0.0018542832, y: -0.0030622755, z: -0.000012755394}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_L
+      Translation: {x: -0.00077614933, y: -0.0016756678, z: -0.000024447838}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_L
+      Translation: {x: -0.00077615184, y: -0.0016756058, z: -0.00002447764}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: mouthStretchRight
+    Description: 
+    BoneModifications:
+    - BonePath: joint_skin_GRP/joint_face/lipConner_R
+      Translation: {x: 0.0018542832, y: -0.0030622755, z: -0.000012755394}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipLower_01_R
+      Translation: {x: 0.00077614933, y: -0.0016756678, z: -0.000024447838}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    - BonePath: joint_skin_GRP/joint_face/lipUpper_01_R
+      Translation: {x: 0.00077615184, y: -0.0016756058, z: -0.00002447764}
+      Rotation: {x: -0, y: -0, z: -0}
+      Scale: {x: 0, y: 0, z: 0}
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Editor_Foldout: 0
+    Editor_DescriptionFoldout: 0
+  - Name: tongueOut
+    Description: 
+    BoneModifications: []
+    Editor_DescriptionFoldout: 0
